@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    background-color: turquoise;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+
+
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgb(13, 168, 240) 0%, rgb(21, 201, 21) 100% );
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+h1 {
+
+    font-size: 40px;
+    font-weight: 300;
+    font-family: sans-serif;
+
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'VT323', monospace;
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.menu{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index:10;
+    margin-top: 0px;
+    background-color: wheat;
+}
+
+#bio {
+    font-family:  cursive;
+    padding: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.para{
+    font-family: 'Mynerve', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+#contact iframe{
+    width: 100%;
+}
+
+#contact{
+    background-color: lightgray;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
